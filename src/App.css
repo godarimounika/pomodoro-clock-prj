@@ -1,38 +1,88 @@
-.App {
+.promodoro-border{
+  border: 10px solid green;
+  height: 600px;
+  
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 0 50px lightcoral;
+/* margin-top: 10px; */
+  border-radius: 50%;
+  padding-top: 40px;
+}
+#promodoro-wrapper{
+  background-color:#000435;
+  /* background-color: aqua; */
+  height:700px;
+  width: 100%;
+  margin: 0 auto;
+
+  
+}
+#timer{
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-color: black;
+}
+#para{
+  font-size: 100px;
   text-align: center;
+  color:#9136f6 ;
+  /* background:linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4); */
 }
+.btn-wrap{
+margin-top: 150px;
+/* background-color: yellow; */
+margin-left: 30px;
+height: 80px;
+width:90%;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.btn1{
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 15px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 30px;
+  z-index: 1;
+}
+.btn1:hover {
+  animation: animate 8s linear infinite;
+}
+ 
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.model-wrapper{
+  background-color: white;
+  height: 300px;
+  width: 50%px;
+  margin: 0 auto;
+  text-align: center;
+  background-color:#000435;
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.btn{
+  margin: 5px;
 }
